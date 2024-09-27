@@ -2,28 +2,46 @@
 
 ## Descripción
 
-Este es un proyecto hecho en **JavaScript** que predice si un vehículo puede circular bajo el sistema de restricción vehicular **"Pico y Placa"** para Quito-Ecuador. Basado en el número de placa, la fecha y la hora, el predictor determina si el vehículo está autorizado para circular en la ciudad durante ciertos periodos de tiempo.
+This is a JavaScript project that predicts whether a vehicle can circulate under the vehicle restriction system "Pico y Placa" for Quito-Ecuador. Based on the license plate number, date, and time, the predictor determines if the vehicle is authorized to circulate in the city during certain periods.
 
 ## Reglas de Pico y Placa
 
-- **Restricción por día y último dígito de la placa**: Dependiendo del último dígito de la placa del vehículo se restringira la circulación de acuerdo al siguiente horario:
-  - Lunes: dígitos terminados en 1 y 2.
-  - Martes: dígitos terminados en 3 y 4.
-  - Miércoles: dígitos terminados en 5 y 6.
-  - Jueves: dígitos terminados en 7 y 8.
-  - Viernes: dígitos terminados en 9 y 0.
-  
-- **Restricción por horario**:
-  - Mañanas: de 06:00 am a 09:30 am.
-  - Tardes: de 04:00 pm a 08:00 pm.
+- **Restriction by day and last digit of the plate**: Depending on the last digit of the vehicle's license plate, circulation will be restricted according to the following schedule:
 
-## Estructura del Proyecto
+    Monday: digits ending in 1 and 2.
+    Tuesday: digits ending in 3 and 4.
+    Wednesday: digits ending in 5 and 6.
+    Thursday: digits ending in 7 and 8.
+    Friday: digits ending in 9 and 0.
+  
+- **Time restriction**:
+  - Mornings: from 6:00 AM to 9:30 AM.
+  - Afternoons: from 4:00 PM to 8:00 PM.
+
+## Project Structure
 
 ```bash
 pico-y-placa-js/
 ├── src/
 │   └── picoYPlacaPredictor.js    # Código fuente principal que contiene la clase PicoYPlacaPredictor.
 ├── tests/
-│   └── testPredictor.js          # Pruebas unitarias para validar la funcionalidad del predictor.
+│   └── testPredictor.test.js          # Pruebas unitarias para validar la funcionalidad del predictor.
 ├── README.md                     # Este archivo de documentación.
 └── package.json                  # Archivo de configuración de npm.
+
+```
+## To run the application, you need to install the program's dependencies.
+```
+npm install
+```
+
+## To run the tests, type the following command in the terminal:
+````
+npm test 
+````
+
+## Finally, to finish to run the program you need to run the following command:
+
+``` 
+npm start
+```
