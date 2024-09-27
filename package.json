@@ -1,15 +1,16 @@
 {
-  "name": "picoplaca",
+  "name": "pico-y-placa-predictor",
   "version": "1.0.0",
-  "description": "#predictor",
-  "main": "index.js",
+  "description": "Predictor para determinar si un vehículo puede circular según las reglas de Pico y Placa.",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",                    
+    "start": "node src/index.js"      
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["pico", "placa", "predictor", "javascript"],
+  "author": "Edison",               
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0"               
   }
 }
