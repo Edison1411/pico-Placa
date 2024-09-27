@@ -4,7 +4,7 @@
 
 This is a JavaScript project that predicts whether a vehicle can circulate under the vehicle restriction system "Pico y Placa" for Quito-Ecuador. Based on the license plate number, date, and time, the predictor determines if the vehicle is authorized to circulate in the city during certain periods.
 
-## Reglas de Pico y Placa
+## Pico y Placa Rules
 
 - **Restriction by day and last digit of the plate**: Depending on the last digit of the vehicle's license plate, circulation will be restricted according to the following schedule:
 
