@@ -40,7 +40,7 @@ npm install
 npm test 
 ````
 
-## Finally, to finish to run the program you need to run the following command:
+## Finally, to run the program you need to use the following command:
 
 ``` 
 npm start
