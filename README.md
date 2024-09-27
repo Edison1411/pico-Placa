@@ -23,11 +23,11 @@ This is a JavaScript project that predicts whether a vehicle can circulate under
 ```bash
 pico-y-placa-js/
 ├── src/
-│   └── picoYPlacaPredictor.js    # Código fuente principal que contiene la clase PicoYPlacaPredictor.
+│   └── picoYPlacaPredictor.js   
 ├── tests/
-│   └── testPredictor.test.js          # Pruebas unitarias para validar la funcionalidad del predictor.
-├── README.md                     # Este archivo de documentación.
-└── package.json                  # Archivo de configuración de npm.
+│   └── testPredictor.test.js      
+├── README.md                    
+└── package.json            
 
 ```
 ## To run the application, you need to install the program's dependencies.
